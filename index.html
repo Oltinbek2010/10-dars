@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.min.css">
     <title>3-oy 10-dars</title>
 </head>
 <body>
@@ -11,7 +14,7 @@
         <div class="container header__container">
             
             <div class="left-part">
-                <img src="./img/logo.svg" width="148" height="40" alt="Logo">
+                <a href="#"><img src="./img/logo.svg" width="148" height="40" alt="Logo"></a>
 
                 <nav class="nav">
                     <ul class="nav-list">
@@ -23,41 +26,54 @@
                 </nav>
             </div>
 
-            <div class="right-part--header-links">
-                <a href="#"><img src="./img/person.svg" width="24" height="24" alt="Sign In">Sign In</a>
-                <a href="#">Request Demo</a>
+            <div class="right-part">
+                <a class="button" href="#"><img src="./img/person.svg" width="24" height="24" alt="Sign In"><p>Sign In</p></a>
+                <a class="green-button" href="#">Request Demo</a>
             </div>
         </div>
     </header>
 
-    <main class="container main__container">
-        <div class="hero-info">
-            <h2>
-
-            </h2>
-
-            <p>
-
-            </p>
-
-            <div class="hero-links">
-
-            </div>
+    <div class="wrapper">
+        <div class="main-wrapper">
+            <main class="container main__container">
+                <div class="hero-info">
+                    <h2>
+                        Make your operations Easier and Efficient with <span>Nimbly</span>
+                    </h2>
+        
+                    <p>
+                        Digitize your business operations and gain real-time
+                        analytics on your team progress anytime, anywhere.
+                    </p>
+        
+                    <div class="hero-links">
+                        <a class="green-button" href="#">Request Demo</a>
+                        <a class="grey-button" href="#"><img src="./img/call.svg" width="24" height="24" alt="">Free Consultation</a>
+                    </div>
+                </div>
+        
+                <div class="hero-img">
+                    <img src="./img/hero-image.png" width="551.38" height="579" alt="Hero image">
+                </div>
+            </main>
         </div>
-
-        <div class="hero-img">
-            <img src="./img/hero-image.png" width="551.38" height="579" alt="Hero image">
+    
+        <div class="logos-wrapper">
+            <section class="container logos__container">
+                <p>
+                    Trusted by 10,000+ the world’s fastest growing companies including:
+                </p>
+        
+                <div class="logo-list">
+                    <a href="#"><img src="./img/kfc.svg" width="166" height="67" alt="KFC"></a>
+                    <a href="#"><img src="./img/cargill.svg" width="148" height="67" alt="Cargill"></a>
+                    <a href="#"><img src="./img/7elven.svg" width="51" height="66" alt="7eleven"></a>
+                    <a href="#"><img src="./img/underarmour.svg" width="113" height="66" alt="Under Armour"></a>
+                    <a href="#"><img src="./img/dq.svg" width="99" height="69" alt="DQ"></a>
+                    <a href="#"><img src="./img/toto.svg" width="205" height="70" alt="TOTO"></a>
+                </div>
+            </section>
         </div>
-    </main>
-
-    <section class="container logos__container">
-        <p>
-
-        </p>
-
-        <div class="logo-list">
-
-        </div>
-    </section>
+    </div>
 </body>
 </html>
